@@ -2,30 +2,54 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo 01</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="estilo.css">
     <style>
-        p{
+        p {
             color: blue;
         }
-        #primeiraDIV{
+
+        div {
+            margin: 1rem;
+        }
+
+        #primeira-div {
             color: white;
             background-color: red;
             padding: 1rem;
+        }
+
+        .item {
+            color: #f7f707;
+            background-color: #df07f7;
+            padding: 1rem;
+            width: 6rem;
+            border-radius: .5rem;
+        }
+        .conteiner{
+            border: 1px solid;
+            color: #5ed1c2;
+            box-shadow: ;
         }
     </style>
 </head>
 
 <body>
     <p style="color: red;">
-        Isto é um parágrafo
+        Isto é um parágrafo.
     </p>
 
-    <div id="primeiraDIV">
-
+    <div id="primeira-div">
+        Isto é uma DIV.
     </div>
+
+    <div class="conteiner">
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>
+    </div>
+    
 </body>
 
 </html>
